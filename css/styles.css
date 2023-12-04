@@ -594,7 +594,7 @@ body {
   border: none;
 }
 .modal-close-btn-icon {
-  fill: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .description-modal {
   color: #2e2f42;
@@ -711,6 +711,7 @@ body {
 .review-form-own-checkbox-icon {
   fill: #ffffff;
   opacity: 0;
+  margin-left: 16px;
 }
 .review-form-checkbox:checked
   + .review-form-checkbox-label
