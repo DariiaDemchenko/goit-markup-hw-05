@@ -524,6 +524,7 @@ body {
 
 .form-subscribe-btn-icon {
   color: #fff;
+  margin-left: 16px;
 }
 
 /* === Backdrope style === */
@@ -711,7 +712,6 @@ body {
 .review-form-own-checkbox-icon {
   fill: #ffffff;
   opacity: 0;
-  margin-left: 16px;
 }
 .review-form-checkbox:checked
   + .review-form-checkbox-label
